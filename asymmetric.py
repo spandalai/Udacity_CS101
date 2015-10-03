@@ -50,3 +50,4 @@ print antisymmetric([[1, 2, 5],
                      [0, 1, -9],
                      [0, 0, 1]])
 #>>> False
+# End
