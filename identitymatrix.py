@@ -55,14 +55,14 @@ matrix1 = [[1,0,0,0],
            [0,0,1,0],
            [0,0,0,1]]
 print is_identity_matrix(matrix1)
-#>>>True
+#>>> True
 
 matrix2 = [[1,0,0],
            [0,1,0],
            [0,0,0]]
 
 print is_identity_matrix(matrix2)
-#>>>False
+#>>> False
 
 matrix3 = [[2,0,0],
            [0,2,0],
@@ -76,12 +76,12 @@ matrix4 = [[1,0,0,0],
            [0,0,0,1]]
 
 print is_identity_matrix(matrix4)
-#>>>False
+#>>> False
 
 matrix5 = [[1,0,0,0,0,0,0,0,0]]
 
 print is_identity_matrix(matrix5)
-#>>>False
+#>>> False
 
 matrix6 = [[1,0,0,0],  
            [0,1,0,1],  
@@ -89,10 +89,10 @@ matrix6 = [[1,0,0,0],
            [0,0,0,1]]
 
 print is_identity_matrix(matrix6)
-#>>>False
+#>>> False
 
 matrix7 = [[1, -1, 1],
            [0, 1, 0],
            [0, 0, 1]]
 print is_identity_matrix(matrix7)
-#>>>False
+#>>> False
